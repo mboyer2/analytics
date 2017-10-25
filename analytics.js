@@ -177,7 +177,8 @@ $(document).ready(function(){
 ////////////////   VOWEL COUNT   //////////////////////
 
 	$(document).on('keydown', function(event){
-
+		event.key= event.key.toLowerCase()
+		//make all lowercase
 		for (var i = 0; i < $('#input').text.length; i++) {
 
   		//if a vowel, add to vowel count
