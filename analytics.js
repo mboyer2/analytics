@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 
 	})
-
+		//hovertime for phonePhoto
 	$( "#phonePhoto" ).mouseover(function() {
 		hoverStart = new Date()
 		console.log(hoverStart)
@@ -67,13 +67,6 @@ $(document).ready(function(){
     		}
   		}
 
-
-
-
-
-
-		// var vowels = 
-		// var letters = $('#input').val().toLowerCase()
 
 
 		
